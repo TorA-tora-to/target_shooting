@@ -73,11 +73,16 @@
 <body>
     <br>
     <br>
-    <h1>おめでとうございます！！この画面を提示で100円引きです。</h1>
+    <div class="center">
+        <h1>おめでとうございます！！この画面を提示で100円引きです。</h1>
+        <h3>100円の商品は対象外です。</h3>
+        <br>
+        <br>
+        <br>
+        <p>場所は、ロボット部室裏9番です。</p>
+    </div>
     <br>
     <br>
-    <br>
-    <p>場所は、ロボット部室裏9番です。</p>
     <br>
 
     <div class="center">
@@ -91,6 +96,9 @@
             <button style="width: 120px; height:40px;" onclick="document.getElementById('target').scrollIntoView({ behavior: 'smooth' })">
                 ピザ編へ
             </button>
+            <button style="width: 120px; height:40px;" onclick="document.getElementById('pityare').scrollIntoView({ behavior: 'smooth' })">
+                ピチャレへ
+            </button>
         </div>
     </div>
     <br>
@@ -101,6 +109,7 @@
         </div>
         <p>2倍速再生で1分です。</p>
         <p>動画内では、3DCGを使用していますが、イメージであり物理現象に準拠していません。ご了承願います。</p>
+        <p>内容は最新なものでなく、正確ではありません。</p>
         <p>使用音声:VOICEVOX</p>
         <p>四国めたん</p>
 
@@ -118,10 +127,27 @@
         <h4>以下、料金表です。</h4>
         <h4>射的とピザのセットは100円お得です。</h4>
         <p> 射的単品:200円</p>
-        <p>ピザ+射的:300円</p>
-        <p> ピザ単品:200円</p>
+        <p>ピザ+射的:200円</p>
+        <p>ピチャレ:300円</p>
+        <p> ピザ単品:100円</p>
         <p>※射的は1回3発です。</p>
-        <p>※ピザ1ピースは1/4ホールです。</p>
+        <p>※ピザ1ピースは1/8ホールです。</p>
+        <p>※ピチャレの詳細とルールについては、次の章をご確認ください。</p>
+    </div>
+    <br>
+    <div class="box yellow" id="pityare">
+        <h2>ピチャレについて:¥300</h2>
+        <h4>概要</h4>
+        <p>ピチャレは、射的の得点でピザのサイズが変わる商品です。</p>
+        <h4>ルール</h4>
+        <p>射的の回数は、通常と同じように3発です。</p>
+        <p>3初の得点の合計をもとに、ピザの枚数を決定します。</p>
+        <p>以下、射的の得点とピザの枚数の対応表です。</p>
+        <p>射的0pt:ピザ1枚</p>
+        <p>2~5pt:ピザ3枚</p>
+        <p>6~7pt:ピザ6枚</p>
+        <p>8pt~:ピザ8枚(1ホール)</p>
+        
     </div>
     <br>
     <div class="box green">
@@ -184,15 +210,22 @@
             <button style="width: 120px; height:40px;" onclick="document.getElementById('target2').scrollIntoView({ behavior: 'smooth' })">
                 射的編へ
             </button>
+            <button style="width: 120px; height:40px;" onclick="document.getElementById('pityare').scrollIntoView({ behavior: 'smooth' })">
+                ピチャレへ
+            </button>
         </div>
     </dev>
     <br>
     <div class="box parple">
         <h2>価格について</h2>
         <h4>以下価格表です。射的とのセットがお得です。</h4>
-        <p>  1ピース:200円</p>
-        <p>ピザ+射的:300円</p>
-        <p>※ピザ1ピースは1/4ホールです。</p>
+        <p>1ピース:100円</p>
+        <p>大ピース:200円</p>
+        <p>ピザ+射的:200円</p>
+        <p>ピチャレ:300円</p>
+        <p>※ピザ1ピースは1/8ホールです。</p>
+        <p>※大ピースは1/4ホールです。</p>
+        <p>※ピチャレのピザのサイズは、射的の得点に左右されます。詳しくは射的編でご確認ください。</p>
         <p>※射的は1回3発です。</p>
     </div>
     <br>
